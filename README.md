@@ -2,8 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-GNU General-Public-License-v3-blue.svg)](LICENSE)
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://adoptium.net/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-[VERSION]-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-[VERSION]-blue.svg)](https://www.postgresql.org/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-29-blue.svg)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-🐳-blue.svg)](https://www.docker.com/)
 
 > **One-line pitch:** Company Search automatically fetches UK company data from the
@@ -91,6 +91,7 @@ Each of the libraries were chosen based on their compatability with the project,
 ```bash
 git clone https://github.com/[USERNAME]/[REPO].git
 cd [REPO]
+```bash
 
 ### 2. Run Docker
 
@@ -98,13 +99,14 @@ Run with the following command:
 
 ```bash
 docker-compose up -d
+```bash
 
 ### 3. Run the application
 Execute the following command:
 
 ```bash
 ./mvnw spring-boot:app
-
+```bash
 
 
 
