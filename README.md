@@ -1,6 +1,6 @@
 # Company Search
 
-[![License](https://img.shields.io/badge/license-GNU General-Public-License-v3-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-GNU General-Public-License-v3-blue.svg)]([LICENSE](https://www.gnu.org/licenses/gpl-3.0.html))
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://adoptium.net/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-blue.svg)](https://www.postgresql.org/)
