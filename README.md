@@ -91,7 +91,7 @@ Each of the libraries were chosen based on their compatability with the project,
 ```bash
 git clone https://github.com/[USERNAME]/[REPO].git
 cd [REPO]
-```bash
+```
 
 ### 2. Run Docker
 
@@ -99,14 +99,14 @@ Run with the following command:
 
 ```bash
 docker-compose up -d
-```bash
+```
 
 ### 3. Run the application
 Execute the following command:
 
 ```bash
 ./mvnw spring-boot:app
-```bash
+```
 
 
 
