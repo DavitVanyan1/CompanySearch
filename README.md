@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-GNU General-Public-License-v3-blue.svg)](LICENSE)
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://adoptium.net/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-29-blue.svg)](https://www.postgresql.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-blue.svg)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-🐳-blue.svg)](https://www.docker.com/)
 
 > **One-line pitch:** Company Search automatically fetches UK company data from the
@@ -116,7 +116,7 @@ Execute the following command:
 
 | Method | Endpoint                        | Description                        |
 | ------ | ------------------------------- | ---------------------------------- |
-| `GET`  | `/api/`| Retrieve company data based on a search word      |
+| `GET`  | `/api/search?q={keyword}`| Retrieve company data based on a keyword provided      |
 
 > 📘 The `GET` endpoint returns the list of companies in JSON format, and a maximum of 100 companies are fetched, stored and returned. If same request is made twice, the second time is fetched from the database.
 
